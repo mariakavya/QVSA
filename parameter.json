@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "qvsavm513"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/ea727ab6-4ca9-475f-95ba-5a0363ccdda7/resourceGroups/xentitstack/providers/Microsoft.Network/networkSecurityGroups/xen_mgm_app_nsg"
+        },
+        "subnetName": {
+            "value": "az1_mgm_app"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/ea727ab6-4ca9-475f-95ba-5a0363ccdda7/resourceGroups/xentitstack/providers/Microsoft.Network/virtualNetworks/XENMGMVN"
+        },
+        "publicIpAddressName": {
+            "value": "QVSAVM-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "QVSAVM"
+        },
+        "virtualMachineRG": {
+            "value": "xentitstack"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_A1"
+        },
+        "adminUsername": {
+            "value": "MasterAdmin"
+        },
+        "adminPassword": {
+            "value": null
+        }
+    }
+}
