@@ -9,13 +9,13 @@
             "value": "qvsavm513"
         },
         "networkSecurityGroupId": {
-            "value": "/subscriptions/ea727ab6-4ca9-475f-95ba-5a0363ccdda7/resourceGroups/xentitstack/providers/Microsoft.Network/networkSecurityGroups/xen_mgm_app_nsg"
+            "value": "/subscriptions/ea727ab6-4ca9-475f-95ba-5a0363ccdda7/resourceGroups/XENMGMRG/providers/Microsoft.Network/networkSecurityGroups/xen_mgm_app_nsg"
         },
         "subnetName": {
             "value": "az1_mgm_app"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/ea727ab6-4ca9-475f-95ba-5a0363ccdda7/resourceGroups/xentitstack/providers/Microsoft.Network/virtualNetworks/XENMGMVN"
+            "value": "/subscriptions/ea727ab6-4ca9-475f-95ba-5a0363ccdda7/resourceGroups/XENMGMRG/providers/Microsoft.Network/virtualNetworks/XENMGMVN"
         },
         "publicIpAddressName": {
             "value": "QVSAVM-ip"
@@ -42,7 +42,7 @@
             "value": "MasterAdmin"
         },
         "adminPassword": {
-            "value": null
+            "value": testing
         }
     }
 }
